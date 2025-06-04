@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Lobster&family=Lora:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reenie+Beanie&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Poop patrol</title>
 </head>
 <body>
+    <main class="start-screen">
+    <button class="start-screen__info-btn" aria-label="Game information">
+      <img src="imgs/info.png" alt="Info icon" class="start-screen__info-icon">
+    </button>
+
+    <button class="start-screen__language-btn" aria-label="Change language">
+      <img src="imgs/convert.png" alt="Language icon" class="start-screen__language-icon">
+    </button>
+
+
+    <h1 class="start-screen__title visually-hidden">Poop Patrol</h1>
+    <img  src="imgs/GameTitle.png" alt="Poop Patrol logo" class="start-screen__title-img">
+
+    <div class="start-screen__dog"></div>
+
     
+    <button class="start-screen__poop-btn" aria-label="Start game">
+      <img src="imgs/poop.png" alt="Poop icon" class="start-screen__poop-icon">
+    </button>
+
+    <div class="start-screen__arrow">
+        <img src="imgs/right.png" alt="Arrow pointing up" class="start-screen__arrow-img">
+    </div>
+
+    <p class="start-screen__text">Pick me up to continue</p>
+  </main>
 </body>
 </html>
