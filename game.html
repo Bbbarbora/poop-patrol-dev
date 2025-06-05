@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Lobster&family=Lora:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reenie+Beanie&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Poop patrol</title>
+</head>
+<body>
+    <div id="game-screen">
+
+    <!-- Horný panel -->
+    <div id="top-menu">
+      <div class="menu-left">
+        <!-- Počet hovienok -->
+        <div class="poop-counter">
+          <img src="icons/poop-icon.png" alt="Poop" />
+          <span id="poop-count">0</span>
+        </div>
+
+        <!-- Ikona nesenia hovienka -->
+        <div id="carrying-indicator" class="hidden">
+          <img src="icons/poop-bag (1).png" alt="Bag with poop" />
+        </div>
+      </div>
+
+      <!-- ⏱️ Časovač - nižšie kvôli výrezu -->
+      <div class="menu-center">
+        <div class="timer">
+          <img src="icons/wall-clock.png" alt="Clock" />
+          <span id="time-left">60</span>s
+        </div>
+      </div>
+
+      <!-- ⏸️ Pauza -->
+      <div class="menu-right">
+        <button id="pause-button">
+          <img src="icons/pause.png" alt="Pause" />
+        </button>
+      </div>
+    </div>
+
+    <!-- Tu neskôr pridáme herné objekty, ktoré sa budú hýbať -->
+    <div id="game-area">
+      <div id="dog" class="dog-walk-up dog-walk-left"></div>
+      <div id="player"></div>
+      <div class="poop"></div>
+      <div id="trash-bin"></div>
+    </div>
+
+    <!-- Skryté menu pri pauze -->
+    <div id="pause-menu" class="hidden">
+      <!-- Obsah menu (tlačidlo pokračovať, znovu, atď.) -->
+    </div>
+
+  </div>
+</body>
+</html>
