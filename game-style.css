@@ -219,8 +219,8 @@ body, html {
   position: absolute;
   left: 30%;
   top: 50%;
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   background-image: url('imgs/poop.png');
   background-size: contain;
   background-repeat: no-repeat;
