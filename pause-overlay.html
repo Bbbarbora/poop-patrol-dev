@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pause-overlay.css">
+    <link href="https://fonts.googleapis.com/css2?family=Murecho:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Lobster&family=Lora:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reenie+Beanie&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Poop patrol</title>
+</head>
+<body>
+
+
+<!-- Overlay pre pauzu -->
+<div class="pause-overlay">
+  <div class="pause-menu">
+    <h2 class="pause-menu__title">Menu</h2>
+
+    <button class="pause-menu__btn">Resume</button>
+    <button class="pause-menu__btn">Restart Game</button>
+    <button class="pause-menu__btn">Back to Home Screen</button>
+
+    <div class="pause-menu__settings">
+      <h3 class="pause-menu__subtitle">Settings</h3>
+
+      <!-- Zvuk -->
+      <div class="pause-menu__section">
+        <p class="pause-menu__label">Sound</p>
+        <button class="pause-menu__icon-btn" aria-label="Sound On">
+          <img src="icons/sound-on.svg" alt="Sound On">
+        </button>
+        <button class="pause-menu__icon-btn" aria-label="Sound Off">
+          <img src="icons/sound-off.svg" alt="Sound Off">
+        </button>
+      </div>
+
+      <!-- Jazyk -->
+      <div class="pause-menu__section">
+        <p class="pause-menu__label">Language</p>
+        <button class="pause-menu__icon-btn" aria-label="English">
+          <img src="icons/united-kingdom.png" alt="English Flag">
+        </button>
+        <button class="pause-menu__icon-btn" aria-label="Čeština">
+          <img src="icons/czech.png" alt="Czech Flag">
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
